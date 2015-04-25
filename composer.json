@@ -1,0 +1,22 @@
+{
+  "require": {
+    "php": ">=5.3.0",
+    "silex/silex": "~1.2",
+    "phpunit/phpunit": "4.8.x-dev"
+  },
+  "extra": {
+    "heroku": {
+      "document-root": "web",
+      "index-document": "index.php"
+    }
+  },
+  "scripts": {
+    "compile": [
+      "bower install"
+    ]
+  },
+  "require-dev": {
+    "symfony/browser-kit": "~2.6",
+    "symfony/css-selector": "~2.6"
+  }
+}
